@@ -1,3 +1,5 @@
+/*
+
 console.log("hello world")
 
 let initiate = prompt("would you like to play? y/n", "");
@@ -106,3 +108,36 @@ function gameWinner (x){
 
 }
 // i'm gonna try to make a function that returns factorials
+*/
+
+// testing area for arrays
+
+const array = [];
+array [0] = 'red';
+array [1] = 'blue';
+array [2] = 'orange';
+array [3] = 'pink';
+array [4] = 'blue';
+
+
+console.log(array.includes('blue'))
+console.log(array.toString())
+function removeItem(a,...args)  {
+        /*
+        let itemLocation = array.indexOf(b);
+        let itemLocation2 = array.indexOf(c);
+        while(itemLocation > -1){
+            array.splice(itemLocation,1); 
+            itemLocation = array.indexOf(b);
+        }
+        while(itemLocation2 > -1) {
+            array.splice(itemLocation2,1);
+            itemLocation2 =array.indexOf(c);
+        }
+        */
+    return a;
+}
+
+
+removeItem(array,'blue')
+console.log(array.toString());
